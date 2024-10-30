@@ -1,0 +1,10 @@
+<template>
+  <div class="about">
+    <HuinaKakayaTo message='Это пропс из родительского компонента.'>
+    </HuinaKakayaTo>
+  </div>
+</template>
+
+<script setup>
+import HuinaKakayaTo from '@/components/HuinaKakayaTo.vue';
+</script>
